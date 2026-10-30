@@ -1,7 +1,6 @@
 ---
 name: workspace-agent
-description: Do the kickoff from a worktree.
-disable-model-invocation: true
+description: Do an orchestrator kickoff from a worktree. Use when a message says to follow the workspace-agent skill.
 ---
 
 # Workspace agent

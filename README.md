@@ -16,15 +16,15 @@ Then start a thread and invoke the `orchestrator` skill.
 
 ## Skills
 
-User-invoked skills run when you name them. Model-invoked skills load when another skill tells the agent to follow them.
+User-invoked skills run when you name them. Model-invoked skills load when a skill or a kickoff message tells the agent to follow them.
 
 ### User-invoked
 
 - **[orchestrator](./skills/orchestrator/SKILL.md)**: Coordinate. A one-step answer stays in the chat. Otherwise name one agent by the subject, reply, then launch. Resume only for a follow-up on the same checkout.
-- **[workspace-agent](./skills/workspace-agent/SKILL.md)**: Do the kickoff in a worktree. The orchestrator moves the board.
 
 ### Model-invoked
 
+- **[workspace-agent](./skills/workspace-agent/SKILL.md)**: Do the kickoff in a worktree. The orchestrator's kickoff names it, so the new agent loads it. The orchestrator moves the board.
 - **[workspace](./skills/workspace/SKILL.md)**: The shared store, a sibling of the main checkout named `<folder>.workspace`. The chat gets the result. The board gets status. `docs/` gets a long artifact. `internal/` gets an agent note.
 - **[project-board](./skills/project-board/SKILL.md)**: `notes.md` with For Review, In Progress, Queued, Done, and Canceled.
 - **[delegate-work](./skills/delegate-work/SKILL.md)**: Kickoff template for a harness that cannot start a top-level agent. One PR per leaf task.
