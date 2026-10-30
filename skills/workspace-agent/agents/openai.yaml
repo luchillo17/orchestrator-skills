@@ -1,0 +1,4 @@
+# AI assisted development
+interface:
+  display_name: "Workspace agent"
+  short_description: "Do the kickoff in a worktree"

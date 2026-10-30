@@ -1,0 +1,4 @@
+# AI assisted development
+interface:
+  display_name: "Workspace"
+  short_description: "Project store outside the repo"

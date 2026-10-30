@@ -1,0 +1,4 @@
+# AI assisted development
+interface:
+  display_name: "Project board"
+  short_description: "Task rows in notes.md"

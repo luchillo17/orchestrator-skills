@@ -1,0 +1,4 @@
+# AI assisted development
+interface:
+  display_name: "Delegate work"
+  short_description: "Kickoff when there are no native workers"
